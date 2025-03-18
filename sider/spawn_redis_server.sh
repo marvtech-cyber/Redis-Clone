@@ -1,5 +1,5 @@
 exec cargo run \
-    ---quiet \
+    --quiet \
     --release \
     --manifest-path $(dirname $0)/Cargo.toml \
     --"$@"
